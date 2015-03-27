@@ -1,0 +1,15 @@
+{
+    "type" : "record",
+    "name" : "PMFPromotion",
+    "namespace" : "com.panicker.resolve.pmf.avro",
+    "fields" : [
+      {"name" : "itemDesc", "type" : ["string", "null"], "default" : ""},
+      {"name" : "longDesc", "type" : ["string", "null"], "default" : ""},
+      {"name" : "revision", "type" : ["string", "null"], "default" : ""},
+      {"name" : "crmProductType", "type" : ["string", "null"], "default" : ""},
+      {"name" : "channelClass", "type" : ["string", "null"], "default" : ""},
+      {"name" : "fulfillmentType", "type" : ["string", "null"], "default" : ""},
+      {"name" : "tariffCode", "type" : ["string", "null"], "default" : ""}
+
+   ]
+}
