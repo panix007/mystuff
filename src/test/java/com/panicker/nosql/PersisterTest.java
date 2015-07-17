@@ -1,8 +1,11 @@
 package com.panicker.nosql;
-
-/**
- * Created by PP0063638 on 3/27/2015.
- */
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
 public class PersisterTest {
+
+	@Test
+	public void testInstanceCreated(){
+		assertTrue(true);
+	}
 
 }
